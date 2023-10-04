@@ -1,0 +1,23 @@
+1) Explique o que é ACID e qual a sua finalidade em um sistema de Bando de Dados. (1 pontos).
+	
+  R: ACID é um conceito usado em bancos de dados para garantir que os dados sejam confiáveis e consistentes, que se resume em:
+- Atomicidade: Isso significa que uma operação de banco de dados é como uma transação em dinheiro. Ela é concluída inteiramente ou não acontece de forma alguma.
+- Consistência: Isso garante que os dados estejam sempre em um estado válido. Se uma operação quebrar as regras, ela não será permitida.
+- Isolamento: Garante que uma operação não interfere em outra que está acontecendo ao mesmo tempo. Elas são como pessoas em caixas separadas.
+- Durabilidade: Após uma operação ser concluída, os dados afetados por ela permanecerão seguros, mesmo se o sistema falhar.
+
+
+2) Explique qual a finalidade do Modelo Conceitual em um projeto de bando de Dados. Ao final cite um exemplo prático de sua implementação. (1 pontos).
+  
+  R: O Modelo Conceitual é onde é feito a representação abstrata do sistema, definindo as entidades, atributos e relacionamentos, facilitando a visualização do sistema.
+
+
+3) Explique qual a finalidade do Modelo Logico em um projeto de bando de Dados. Ao final cite um exemplo prático de sua implementação. (1 pontos).
+  
+  R: O Modelo Lógico é onde é realizado a modelagem mais detalhada, definindo as tabelas, linhas, colunas, tipos de dados, chaves primárias, estrangeiras e restrições, facilitando o entedimento dos dados e melhorando a eficiência do sistema.
+
+
+4) Explique qual a finalidade do Modelo Físico em um projeto de bando de Dados. Ao final cite um exemplo prático de sua implementação. (1 pontos).
+  
+  R: O Modelo Físico é onde é implementado o modelo lógico em um banco de dados real, definindo o banco de dados e as questões de particionamento, índices e organização física dos dados, é importante garantir as necessidades de armazenamento e backup de dados nesta etapa final.
+
